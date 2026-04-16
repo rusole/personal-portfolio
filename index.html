@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | @lyvawq</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="spotlight"></div>
+
+    <nav class="nav">
+        <div class="container">
+            <span class="logo">Dev.Portfolio</span>
+            <div style="display: flex; align-items: center; gap: 20px;">
+                <button id="theme-toggle">
+                    <span class="sun-icon">☀️</span>
+                    <span class="moon-icon">🌙</span>
+                </button>
+                <ul class="nav-links">
+                    <li><a href="#projects">Проекты</a></li>
+                    <li><a href="#contact">Связь</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <div class="container">
+            <h1 class="reveal">Привет, я <span class="accent">Ruslan</span></h1>
+            <p class="reveal">Frontend Developer & UI Designer</p>
+            <div class="hidden-hint">введи "ghost"</div>
+        </div>
+    </header>
+
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="reveal">Мои проекты</h2>
+            <div class="grid">
+                <div class="card reveal">
+                    <h3>Personal Portfolio</h3>
+                    <p>Этот самый сайт. Чистый код, адаптив и крутые анимации.</p>
+                    <div class="tags"><span>HTML</span> <span>CSS</span> <span>JS</span></div>
+                </div>
+                <div class="card reveal">
+                    <h3>Coming Soon</h3>
+                    <p>Здесь скоро появится твой следующий крутой проект.</p>
+                    <div class="tags"><span>React</span> <span>Node.js</span></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contact" class="contact">
+        <div class="container reveal">
+            <h2>Давай общаться</h2>
+            <p>Всегда открыт для новых идей и предложений.</p>
+            <a href="https://t.me/lyvawq" class="btn">Написать в Telegram</a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
